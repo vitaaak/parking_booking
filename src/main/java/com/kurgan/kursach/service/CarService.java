@@ -1,0 +1,1 @@
+package com.kurgan.kursach.service;import com.kurgan.kursach.models.Car;import java.util.List;public interface CarService {    void save(Car car);    List<Car> findAll();    Car findById(Long id);    void deleteById(Long id);    List<Car> sortByFieldAsc(String field);}

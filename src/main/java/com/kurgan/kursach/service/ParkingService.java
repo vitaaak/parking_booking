@@ -1,0 +1,1 @@
+package com.kurgan.kursach.service;import com.kurgan.kursach.models.Parking;import java.util.List;public interface ParkingService {    void save(Parking parking);    List<Parking> findAll();    void deleteById(Long id);    Parking getById(Long id);}

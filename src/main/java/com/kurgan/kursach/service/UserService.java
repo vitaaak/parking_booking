@@ -1,0 +1,1 @@
+package com.kurgan.kursach.service;import com.kurgan.kursach.models.User;import java.util.List;public interface UserService {    void save(User user);    void update(User user);    User findByUsername(String username);    List<User> findAll();    void deleteById(Long id);    User getById(Long id);}

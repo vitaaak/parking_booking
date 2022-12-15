@@ -1,0 +1,1 @@
+package com.kurgan.kursach.repository;import com.kurgan.kursach.models.Car;import org.springframework.data.jpa.repository.JpaRepository;public interface CarDao extends JpaRepository<Car, Long> {}

@@ -1,0 +1,1 @@
+package com.kurgan.kursach.repository;import com.kurgan.kursach.models.Role;import org.springframework.data.jpa.repository.JpaRepository;public interface RoleDao extends JpaRepository<Role, Long> {}

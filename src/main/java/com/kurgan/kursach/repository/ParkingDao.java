@@ -1,0 +1,1 @@
+package com.kurgan.kursach.repository;import com.kurgan.kursach.models.Parking;import org.springframework.data.jpa.repository.JpaRepository;public interface ParkingDao extends JpaRepository<Parking, Long> {}

@@ -1,0 +1,1 @@
+package com.kurgan.kursach.service;import com.kurgan.kursach.models.Card;import java.util.List;public interface CardService {    void save(Card card);    List<Card> findAll();    Card findById(Long id);    void deleteById(Long id);    List<Card> findAllByDiscount(int discount);}
